@@ -1,0 +1,26 @@
+{
+  "name": "chansole",
+  "version": "0.0.0",
+  "description": "Multichannel console",
+  "keywords": [
+    "console",
+    "channel"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Rumyantsev <Rumyantsev.Michael@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.56.2",
+    "rollup-plugin-typescript2": "^0.11.1",
+    "typescript": "^2.7.2"
+  }
+}
