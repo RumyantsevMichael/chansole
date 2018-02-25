@@ -31,25 +31,25 @@ consoleB.log('Hello, B');
 
 Open the DevTools **Console Settings** and check the **Selected context only** checkbox
 
-![Check "Selected context only" checkbox](/screenshots/chromeStep1.bmp?raw=true "Check \"Selected context only\" checkbox")
+![Check "Selected context only" checkbox](https://raw.githubusercontent.com/RumyantsevMichael/chansole/master/screenshots/chromeStep1.bmp?raw=true "Check \"Selected context only\" checkbox")
 
 Select a context
 
-![Select a context](/screenshots/chromeStep2.bmp?raw=true "Select a context")
+![Select a context](https://raw.githubusercontent.com/RumyantsevMichael/chansole/master/screenshots/chromeStep2.bmp?raw=true "Select a context")
 
 Now you'll see messages in the selected context only
 
-![Profit](/screenshots/chromeStep3.bmp?raw=true)
+![Profit](https://raw.githubusercontent.com/RumyantsevMichael/chansole/master/screenshots/chromeStep3.bmp?raw=true)
 
 ### Mozilla Firefox
 
 Open the DevTools **Settings** and check the **Select an iframe as the currently targeted document** checkbox
 
-![Check "Select an iframe as the currently targeted document" checkbox](/screenshots/firefoxStep1.png?raw=true "Check \"Select an iframe as the currently targeted document\" checkbox")
+![Check "Select an iframe as the currently targeted document" checkbox](https://raw.githubusercontent.com/RumyantsevMichael/chansole/master/screenshots/firefoxStep1.png?raw=true "Check \"Select an iframe as the currently targeted document\" checkbox")
 
 Select a context
 
-![Select a context](/screenshots/firefoxStep2.png?raw=true "Select a context")
+![Select a context](https://raw.githubusercontent.com/RumyantsevMichael/chansole/master/screenshots/firefoxStep2.png?raw=true "Select a context")
 
 ## License
 MIT
