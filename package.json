@@ -6,10 +6,12 @@
     "console",
     "channel"
   ],
-  "main": "index.js",
+  "module": "index.esm.js",
+  "main": "index.umd.js",
   "types": "index.d.ts",
   "files": [
-    "index.js",
+    "index.esm.js",
+    "index.umd.js",
     "index.d.ts"
   ],
   "scripts": {
