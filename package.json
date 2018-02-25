@@ -20,6 +20,10 @@
   },
   "author": "Michael Rumyantsev <Rumyantsev.Michael@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RumyantsevMichael/chansole.git"
+  },
   "devDependencies": {
     "rollup": "^0.56.2",
     "rollup-plugin-typescript2": "^0.11.1",
