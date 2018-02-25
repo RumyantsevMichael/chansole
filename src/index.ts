@@ -8,7 +8,7 @@ function channel(id: string, container: HTMLElement = window.document.body): Con
     if (channels.has(id) === true) {
         const channel = channels.get(id);
 
-        if (typeof channel === 'undefined') { 
+        if (typeof channel === 'undefined') {
             throw new ReferenceError(`[Chansole]: Channel doesn\'t exists (id: ${id})`);
         }
 
@@ -22,12 +22,11 @@ function channel(id: string, container: HTMLElement = window.document.body): Con
     }
 
     const iframe = createIFrame(generateElementId(id));
-    const console = iframe.contentWindow.console;
 
     container.appendChild(iframe);
-    channels.set(id, console);
+    channels.set(id, iframe.contentWindow.console);
 
-    return console;
+    return iframe.contentWindow.console;
 }
 
 export default channel;
